@@ -16,7 +16,7 @@
 ``` html
   <script src="ztjyutils.min.js"></script>
   <script>
-      var OS = ztjyutils.getOS()
+      var color = ztjyutils.randomColor()
   </script>
 ```
 
@@ -30,7 +30,7 @@ webpack、RequireJS、SeaJS等
 ``` javascript
 // 完整引入
 const ztjyutils = require('ztjyutils')
-const OS = ztjyutils.getOS()
+const color = ztjyutils.randomColor()
 ```
 
 **推荐使用方法**  
@@ -38,8 +38,8 @@ const OS = ztjyutils.getOS()
 不需要完整引入所有函数，只引入需要使用的方法即可。
 ``` javascript
 // 只引入部分方法('ztjyutils/modules/<方法名>')
-const getOS = require('ztjyutils/modules/getOS')
-const OS = getOS()
+const randomColor = require('ztjyutils/modules/randomColor')
+const color = randomColor()
 ```
 ## API文档
 
