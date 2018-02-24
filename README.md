@@ -9,7 +9,7 @@
 
 ## 安装使用
 
-1. 直接下载`dist`目录下的[ztjyutils.min.js](https://github.com/ztjy-fe/blob/master/dist/ztjyutils.min.js)使用，支持UMD通用模块规范  
+1. 直接下载`dist`目录下的[ztjyutils.min.js](https://github.com/ztjy-fe/ztjyutils/blob/master/dist/ztjyutils.min.js)使用，支持UMD通用模块规范  
 2. 使用npm安装
 
 ### 浏览器:
