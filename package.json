@@ -1,15 +1,15 @@
 {
-  "name": "ztjyutils",
+  "name": "szyutils",
   "version": "1.0.4",
   "description": "前端通用工具库",
-  "main": "dist/ztjyutils.min.js",
+  "main": "dist/szyutils.min.js",
   "scripts": {
     "build": "node script/build.js",
     "test": "karma start script/karma.conf.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ztjy-fe/ztjyutils.git"
+    "url": "git+https://github.com/ztjy-fe/szyutils.git"
   },
   "keywords": [
     "util",

@@ -1,6 +1,6 @@
 describe('Object API:', function () {
     describe('#deepClone()', function () {
-        it(`person deepEqual ztjyutils.deepClone(person) should return true`, function () {
+        it(`person deepEqual szyutils.deepClone(person) should return true`, function () {
             let person = {
                 name: "user",
                 settings: {
@@ -8,10 +8,10 @@ describe('Object API:', function () {
                     second: [1, 2, 3, 4, 3]
                 }
             }
-            assert.deepEqual(person, ztjyutils.deepClone(person))
+            assert.deepEqual(person, szyutils.deepClone(person))
         });
 
-        it(`person === ztjyutils.deepClone(person) should return false`, function () {
+        it(`person === szyutils.deepClone(person) should return false`, function () {
             let person = {
                 name: "user",
                 settings: {
@@ -19,23 +19,23 @@ describe('Object API:', function () {
                     second: [1, 2, 3, 4, 3]
                 }
             }
-            assert.notEqual(person, ztjyutils.deepClone(person))
+            assert.notEqual(person, szyutils.deepClone(person))
         });
     });
 
     describe('#isEmptyObject()', function () {
-        it(`ztjyutils.isEmptyObject({}) should return true`, function () {
-            assert(ztjyutils.deepClone({}))
+        it(`szyutils.isEmptyObject({}) should return true`, function () {
+            assert(szyutils.deepClone({}))
         });
 
-        it(`ztjyutils.isEmptyObject({ one: 1 }) should return false`, function () {
-            assert.notEqual(ztjyutils.isEmptyObject({
+        it(`szyutils.isEmptyObject({ one: 1 }) should return false`, function () {
+            assert.notEqual(szyutils.isEmptyObject({
                 one: 1
             }))
         });
 
-        it(`ztjyutils.isEmptyObject([]) should return false`, function () {
-            assert.notEqual(ztjyutils.isEmptyObject([]))
+        it(`szyutils.isEmptyObject([]) should return false`, function () {
+            assert.notEqual(szyutils.isEmptyObject([]))
         });
     });
 })

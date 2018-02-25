@@ -1,4 +1,4 @@
-# ztjyutils
+# szyutils
 
  
 前端通用工具库  
@@ -9,36 +9,36 @@
 
 ## 安装使用
 
-1. 直接下载`dist`目录下的[ztjyutils.min.js](https://github.com/ztjy-fe/ztjyutils/blob/master/dist/ztjyutils.min.js)使用，支持UMD通用模块规范  
+1. 直接下载`dist`目录下的[szyutils.min.js](https://github.com/ztjy-fe/szyutils/blob/master/dist/szyutils.min.js)使用，支持UMD通用模块规范  
 2. 使用npm安装
 
 ### 浏览器:
 ``` html
-  <script src="ztjyutils.min.js"></script>
+  <script src="szyutils.min.js"></script>
   <script>
-      var color = ztjyutils.randomColor()
+      var color = szyutils.randomColor()
   </script>
 ```
 
 ### npm:
 ``` bash
-$ npm install --save-dev ztjyutils
+$ npm install --save-dev szyutils
 ```
 
 webpack、RequireJS、SeaJS等
 
 ``` javascript
 // 完整引入
-const ztjyutils = require('ztjyutils')
-const color = ztjyutils.randomColor()
+const szyutils = require('szyutils')
+const color = szyutils.randomColor()
 ```
 
 **推荐使用方法**  
 
 不需要完整引入所有函数，只引入需要使用的方法即可。
 ``` javascript
-// 只引入部分方法('ztjyutils/modules/<方法名>')
-const randomColor = require('ztjyutils/modules/randomColor')
+// 只引入部分方法('szyutils/modules/<方法名>')
+const randomColor = require('szyutils/modules/randomColor')
 const color = randomColor()
 ```
 ## API文档
@@ -104,49 +104,49 @@ const color = randomColor()
 #### &emsp;&emsp;[parseQueryString][parseQueryString]&emsp;&emsp;url参数转对象
 #### &emsp;&emsp;[stringfyQueryString][stringfyQueryString]&emsp;&emsp;对象序列化
 
-[arrayEqual]:https://github.com/ztjy-fe/ztjyutils/blob/master/src/array/arrayEqual.js
+[arrayEqual]:https://github.com/ztjy-fe/szyutils/blob/master/src/array/arrayEqual.js
 
-[addClass]:https://github.com/ztjy-fe/ztjyutils/blob/master/src/class/addClass.js
-[hasClass]:https://github.com/ztjy-fe/ztjyutils/blob/master/src/class/hasClass.js
-[removeClass]:https://github.com/ztjy-fe/ztjyutils/blob/master/src/class/removeClass.js
+[addClass]:https://github.com/ztjy-fe/szyutils/blob/master/src/class/addClass.js
+[hasClass]:https://github.com/ztjy-fe/szyutils/blob/master/src/class/hasClass.js
+[removeClass]:https://github.com/ztjy-fe/szyutils/blob/master/src/class/removeClass.js
 
-[getCookie]:https://github.com/ztjy-fe/ztjyutils/blob/master/src/cookie/getCookie.js
-[removeCookie]:https://github.com/ztjy-fe/ztjyutils/blob/master/src/cookie/removeCookie.js
-[setCookie]:https://github.com/ztjy-fe/ztjyutils/blob/master/src/cookie/setCookie.js
+[getCookie]:https://github.com/ztjy-fe/szyutils/blob/master/src/cookie/getCookie.js
+[removeCookie]:https://github.com/ztjy-fe/szyutils/blob/master/src/cookie/removeCookie.js
+[setCookie]:https://github.com/ztjy-fe/szyutils/blob/master/src/cookie/setCookie.js
 
-[getExplore]:https://github.com/ztjy-fe/ztjyutils/blob/master/src/device/getExplore.js
-[getOS]:https://github.com/ztjy-fe/ztjyutils/blob/master/src/device/getOS.js
+[getExplore]:https://github.com/ztjy-fe/szyutils/blob/master/src/device/getExplore.js
+[getOS]:https://github.com/ztjy-fe/szyutils/blob/master/src/device/getOS.js
 
-[getScrollTop]:https://github.com/ztjy-fe/ztjyutils/blob/master/src/dom/getScrollTop.js
-[offset]:https://github.com/ztjy-fe/ztjyutils/blob/master/src/dom/offset.js
-[scrollTo]:https://github.com/ztjy-fe/ztjyutils/blob/master/src/dom/scrollTo.js
-[setScrollTop]:https://github.com/ztjy-fe/ztjyutils/blob/master/src/dom/setScrollTop.js
-[windowResize]:https://github.com/ztjy-fe/ztjyutils/blob/master/src/dom/windowResize.js
+[getScrollTop]:https://github.com/ztjy-fe/szyutils/blob/master/src/dom/getScrollTop.js
+[offset]:https://github.com/ztjy-fe/szyutils/blob/master/src/dom/offset.js
+[scrollTo]:https://github.com/ztjy-fe/szyutils/blob/master/src/dom/scrollTo.js
+[setScrollTop]:https://github.com/ztjy-fe/szyutils/blob/master/src/dom/setScrollTop.js
+[windowResize]:https://github.com/ztjy-fe/szyutils/blob/master/src/dom/windowResize.js
 
-[debounce]:https://github.com/ztjy-fe/ztjyutils/blob/master/src/function/debounce.js
-[throttle]:https://github.com/ztjy-fe/ztjyutils/blob/master/src/function/throttle.js
+[debounce]:https://github.com/ztjy-fe/szyutils/blob/master/src/function/debounce.js
+[throttle]:https://github.com/ztjy-fe/szyutils/blob/master/src/function/throttle.js
 
-[getKeyName]:https://github.com/ztjy-fe/ztjyutils/blob/master/src/keycode/getKeyName.js
+[getKeyName]:https://github.com/ztjy-fe/szyutils/blob/master/src/keycode/getKeyName.js
 
-[deepClone]:https://github.com/ztjy-fe/ztjyutils/blob/master/src/object/deepClone.js
-[isEmptyObject]:https://github.com/ztjy-fe/ztjyutils/blob/master/src/object/isEmptyObject.js
+[deepClone]:https://github.com/ztjy-fe/szyutils/blob/master/src/object/deepClone.js
+[isEmptyObject]:https://github.com/ztjy-fe/szyutils/blob/master/src/object/isEmptyObject.js
 
-[randomColor]:https://github.com/ztjy-fe/ztjyutils/blob/master/src/random/randomColor.js
-[randomNum]:https://github.com/ztjy-fe/ztjyutils/blob/master/src/random/randomNum.js
+[randomColor]:https://github.com/ztjy-fe/szyutils/blob/master/src/random/randomColor.js
+[randomNum]:https://github.com/ztjy-fe/szyutils/blob/master/src/random/randomNum.js
 
-[isEmail]:https://github.com/ztjy-fe/ztjyutils/blob/master/src/regexp/isEmail.js
-[isIdCard]:https://github.com/ztjy-fe/ztjyutils/blob/master/src/regexp/isIdCard.js
-[isPhoneNum]:https://github.com/ztjy-fe/ztjyutils/blob/master/src/regexp/isPhoneNum.js
-[isUrl]:https://github.com/ztjy-fe/ztjyutils/blob/master/src/regexp/isUrl.js
+[isEmail]:https://github.com/ztjy-fe/szyutils/blob/master/src/regexp/isEmail.js
+[isIdCard]:https://github.com/ztjy-fe/szyutils/blob/master/src/regexp/isIdCard.js
+[isPhoneNum]:https://github.com/ztjy-fe/szyutils/blob/master/src/regexp/isPhoneNum.js
+[isUrl]:https://github.com/ztjy-fe/szyutils/blob/master/src/regexp/isUrl.js
 
-[digitUppercase]:https://github.com/ztjy-fe/ztjyutils/blob/master/src/string/digitUppercase.js
+[digitUppercase]:https://github.com/ztjy-fe/szyutils/blob/master/src/string/digitUppercase.js
 
-[isSupportWebP]:https://github.com/ztjy-fe/ztjyutils/blob/master/src/support/isSupportWebP.js
+[isSupportWebP]:https://github.com/ztjy-fe/szyutils/blob/master/src/support/isSupportWebP.js
 
-[formatPassTime]:https://github.com/ztjy-fe/ztjyutils/blob/master/src/time/formatPassTime.js
-[formatRemainTime]:https://github.com/ztjy-fe/ztjyutils/blob/master/src/time/formatRemainTime.js
-[isSameDay]:https://github.com/ztjy-fe/ztjyutils/blob/master/src/time/isSameDay.js
+[formatPassTime]:https://github.com/ztjy-fe/szyutils/blob/master/src/time/formatPassTime.js
+[formatRemainTime]:https://github.com/ztjy-fe/szyutils/blob/master/src/time/formatRemainTime.js
+[isSameDay]:https://github.com/ztjy-fe/szyutils/blob/master/src/time/isSameDay.js
 
-[parseQueryString]:https://github.com/ztjy-fe/ztjyutils/blob/master/src/url/parseQueryString.js
-[stringfyQueryString]:https://github.com/ztjy-fe/ztjyutils/blob/master/src/url/stringfyQueryString.js
+[parseQueryString]:https://github.com/ztjy-fe/szyutils/blob/master/src/url/parseQueryString.js
+[stringfyQueryString]:https://github.com/ztjy-fe/szyutils/blob/master/src/url/stringfyQueryString.js
 

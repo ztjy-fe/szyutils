@@ -1,15 +1,15 @@
 describe('Device API:', function () {
     describe('#getExplore()', function () {
-        it(`ztjyutils.getExplore() should return "Chrome"`, function () {
-            console.log(`Explore:${ztjyutils.getExplore()}`)
-            assert(/^Chrome:/.test(ztjyutils.getExplore()))
+        it(`szyutils.getExplore() should return "Chrome"`, function () {
+            console.log(`Explore:${szyutils.getExplore()}`)
+            assert(/^Chrome:/.test(szyutils.getExplore()))
         });
     });
 
     describe('#getOS()', function () {
-        it(`ztjyutils.getOS() should return "windows"`, function () {
-            console.log(`OS:${ztjyutils.getOS()}`)
-            assert(ztjyutils.getOS() === 'windows' || ztjyutils.getOS() === 'MacOSX' || ztjyutils.getOS() === 'linux')
+        it(`szyutils.getOS() should return "windows"`, function () {
+            console.log(`OS:${szyutils.getOS()}`)
+            assert(szyutils.getOS() === 'windows' || szyutils.getOS() === 'MacOSX' || szyutils.getOS() === 'linux')
         });
     });
 });
