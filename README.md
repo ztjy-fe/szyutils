@@ -59,6 +59,7 @@ const color = randomColor()
 ### Device  
 #### &emsp;&emsp;[getExplore][getExplore]&emsp;&emsp;获取浏览器类型和版本号  
 #### &emsp;&emsp;[getOS][getOS]&emsp;&emsp;获取操作系统类型
+#### &emsp;&emsp;[versionCompare][versionCompare]&emsp;&emsp;比较版本号大小
 
 ### Dom  
 #### &emsp;&emsp;[getScrollTop][getScrollTop]&emsp;&emsp;获取滚动条距顶部的距离
@@ -116,6 +117,7 @@ const color = randomColor()
 
 [getExplore]:https://github.com/ztjy-fe/szyutils/blob/master/src/device/getExplore.js
 [getOS]:https://github.com/ztjy-fe/szyutils/blob/master/src/device/getOS.js
+[versionCompare]:https://github.com/ztjy-fe/szyutils/blob/master/src/device/versionCompare.js
 
 [getScrollTop]:https://github.com/ztjy-fe/szyutils/blob/master/src/dom/getScrollTop.js
 [offset]:https://github.com/ztjy-fe/szyutils/blob/master/src/dom/offset.js
