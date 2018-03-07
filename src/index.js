@@ -13,6 +13,7 @@ const setCookie = require('./cookie/setCookie')
 
 const getOS = require('./device/getOS')
 const getExplore = require('./device/getExplore')
+const versionCompare = require('./device/versionCompare')
 
 const getScrollTop = require('./dom/getScrollTop')
 const offset = require('./dom/offset')
@@ -61,6 +62,7 @@ module.exports = {
 
     getOS,
     getExplore,
+    versionCompare,
 
     getScrollTop,
     offset,
