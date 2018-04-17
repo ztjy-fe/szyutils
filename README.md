@@ -100,6 +100,8 @@ const color = randomColor()
 #### &emsp;&emsp;[formatPassTime][formatPassTime]&emsp;&emsp;格式化${startTime}距现在的已过时间
 #### &emsp;&emsp;[formatRemainTime][formatRemainTime]&emsp;&emsp;格式化现在距${endTime}的剩余时间
 #### &emsp;&emsp;[isSameDay][isSameDay]&emsp;&emsp;判断是否为同一天
+#### &emsp;&emsp;[formatFixedDate][formatFixedDate]&emsp;&emsp;日期格式化
+
 
 ### Url
 #### &emsp;&emsp;[parseQueryString][parseQueryString]&emsp;&emsp;url参数转对象
@@ -148,6 +150,7 @@ const color = randomColor()
 [formatPassTime]:https://github.com/ztjy-fe/szyutils/blob/master/src/time/formatPassTime.js
 [formatRemainTime]:https://github.com/ztjy-fe/szyutils/blob/master/src/time/formatRemainTime.js
 [isSameDay]:https://github.com/ztjy-fe/szyutils/blob/master/src/time/isSameDay.js
+[formatFixedDate]:https://github.com/ztjy-fe/szyutils/blob/master/src/time/formatFixedDate.js
 
 [parseQueryString]:https://github.com/ztjy-fe/szyutils/blob/master/src/url/parseQueryString.js
 [stringfyQueryString]:https://github.com/ztjy-fe/szyutils/blob/master/src/url/stringfyQueryString.js
