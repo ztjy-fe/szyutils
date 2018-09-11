@@ -67,6 +67,7 @@ const color = randomColor()
 #### &emsp;&emsp;[scrollTo][scrollTo]&emsp;&emsp;在${duration}时间内，滚动条平滑滚动到${to}指定位置
 #### &emsp;&emsp;[setScrollTop][setScrollTop]&emsp;&emsp;设置滚动条距顶部的距离
 #### &emsp;&emsp;[windowResize][windowResize]&emsp;&emsp;H5软键盘缩回、弹起回调
+#### &emsp;&emsp;[inViewPort][inViewPort]&emsp;&emsp;判断当前元素是否在浏览器可视区域
 
 ### Function  
 #### &emsp;&emsp;[debounce][debounce]&emsp;&emsp;函数防抖   
@@ -126,6 +127,7 @@ const color = randomColor()
 [scrollTo]:https://github.com/ztjy-fe/szyutils/blob/master/src/dom/scrollTo.js
 [setScrollTop]:https://github.com/ztjy-fe/szyutils/blob/master/src/dom/setScrollTop.js
 [windowResize]:https://github.com/ztjy-fe/szyutils/blob/master/src/dom/windowResize.js
+[inViewPort]:https://github.com/ztjy-fe/szyutils/blob/master/src/dom/inViewPort.js
 
 [debounce]:https://github.com/ztjy-fe/szyutils/blob/master/src/function/debounce.js
 [throttle]:https://github.com/ztjy-fe/szyutils/blob/master/src/function/throttle.js
