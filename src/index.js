@@ -46,6 +46,8 @@ const formatPassTime = require('./time/formatPassTime')
 const formatRemainTime = require('./time/formatRemainTime')
 const isSameDay = require('./time/isSameDay')
 const formatFixedDate = require('./time/formatFixedDate')
+const formatCount = require('./time/formatCount')
+const formatPlayTime = require('./time/formatPlayTime')
 
 const parseQueryString = require('./url/parseQueryString')
 const stringfyQueryString = require('./url/stringfyQueryString')
@@ -97,6 +99,7 @@ module.exports = {
     formatRemainTime,
     isSameDay,
     formatFixedDate,
+    formatCount,
 
     parseQueryString,
     stringfyQueryString,

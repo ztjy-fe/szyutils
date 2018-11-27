@@ -153,6 +153,8 @@ const color = randomColor()
 [formatRemainTime]:https://github.com/ztjy-fe/szyutils/blob/master/src/time/formatRemainTime.js
 [isSameDay]:https://github.com/ztjy-fe/szyutils/blob/master/src/time/isSameDay.js
 [formatFixedDate]:https://github.com/ztjy-fe/szyutils/blob/master/src/time/formatFixedDate.js
+[formatCount]:https://github.com/ztjy-fe/szyutils/blob/master/src/time/formatCount.js
+[formatPlayTime]:https://github.com/ztjy-fe/szyutils/blob/master/src/time/formatPlayTime.js
 
 [parseQueryString]:https://github.com/ztjy-fe/szyutils/blob/master/src/url/parseQueryString.js
 [stringfyQueryString]:https://github.com/ztjy-fe/szyutils/blob/master/src/url/stringfyQueryString.js
