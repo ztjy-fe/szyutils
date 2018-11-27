@@ -102,6 +102,8 @@ const color = randomColor()
 #### &emsp;&emsp;[formatRemainTime][formatRemainTime]&emsp;&emsp;格式化现在距${endTime}的剩余时间
 #### &emsp;&emsp;[isSameDay][isSameDay]&emsp;&emsp;判断是否为同一天
 #### &emsp;&emsp;[formatFixedDate][formatFixedDate]&emsp;&emsp;日期格式化
+#### &emsp;&emsp;[formatCount][formatCount]&emsp;&emsp;统一互动数量格式化
+#### &emsp;&emsp;[formatPlayTime][formatPlayTime]&emsp;&emsp;音视频播放时间格式化
 
 
 ### Url
