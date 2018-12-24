@@ -51,6 +51,7 @@ const formatPlayTime = require('./time/formatPlayTime')
 
 const parseQueryString = require('./url/parseQueryString')
 const stringfyQueryString = require('./url/stringfyQueryString')
+const getUrlParam = require('./url/getUrlParam')
 
 
 module.exports = {
@@ -103,4 +104,5 @@ module.exports = {
 
     parseQueryString,
     stringfyQueryString,
+    getUrlParam
 }
