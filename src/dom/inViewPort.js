@@ -7,7 +7,7 @@
 function isInViewPort(ele) {
     var rect = ele.getBoundingClientRect();
     var clientHeight = window.innerHeight || document.documentElement.clientHeight;
-    if (rect.top >= 0 && rect.bottom <= clientHeight) {
+    if (parseInt(rect.top) >= 0 && rect.bottom <= clientHeight) {
         return true;
     }
     return false;
