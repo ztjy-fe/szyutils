@@ -110,6 +110,7 @@ const color = randomColor()
 #### &emsp;&emsp;[parseQueryString][parseQueryString]&emsp;&emsp;url参数转对象
 #### &emsp;&emsp;[stringfyQueryString][stringfyQueryString]&emsp;&emsp;对象序列化
 #### &emsp;&emsp;[getUrlParam][getUrlParam]&emsp;&emsp;获取查询参数
+#### &emsp;&emsp;[deleteUrlParam][deleteUrlParam]&emsp;&emsp;删除URL中固定参数
 
 [arrayEqual]:https://github.com/ztjy-fe/szyutils/blob/master/src/array/arrayEqual.js
 
@@ -162,4 +163,5 @@ const color = randomColor()
 [parseQueryString]:https://github.com/ztjy-fe/szyutils/blob/master/src/url/parseQueryString.js
 [stringfyQueryString]:https://github.com/ztjy-fe/szyutils/blob/master/src/url/stringfyQueryString.js
 [getUrlParam]:https://github.com/ztjy-fe/szyutils/blob/master/src/url/getUrlParam.js
+[deleteUrlParam]:https://github.com/ztjy-fe/szyutils/blob/master/src/url/deleteUrlParam.js
 

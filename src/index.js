@@ -52,6 +52,7 @@ const formatPlayTime = require('./time/formatPlayTime')
 const parseQueryString = require('./url/parseQueryString')
 const stringfyQueryString = require('./url/stringfyQueryString')
 const getUrlParam = require('./url/getUrlParam')
+const deleteUrlParam = require('./url/deleteUrlParam')
 
 
 module.exports = {
@@ -104,5 +105,6 @@ module.exports = {
 
     parseQueryString,
     stringfyQueryString,
-    getUrlParam
+    getUrlParam,
+    deleteUrlParam
 }
