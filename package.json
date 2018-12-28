@@ -1,6 +1,6 @@
 {
   "name": "szyutils",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "前端通用工具库",
   "main": "dist/szyutils.min.js",
   "scripts": {
