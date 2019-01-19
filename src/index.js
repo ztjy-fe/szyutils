@@ -51,7 +51,7 @@ const formatPlayTime = require('./time/formatPlayTime')
 
 const parseQueryString = require('./url/parseQueryString')
 const stringfyQueryString = require('./url/stringfyQueryString')
-
+const objectAssign = require('./object/objectAssign')
 
 module.exports = {
     arrayEqual,
@@ -103,4 +103,5 @@ module.exports = {
 
     parseQueryString,
     stringfyQueryString,
+    objectAssign,
 }
