@@ -2,7 +2,8 @@
  * @desc Object.assign，兼容性
  * @param {Any} values
  */
-Object.prototype.assign = function(target){
+
+var assign = Object.assign || function(target){
     var output = Object(target);
     for (var index = 1; index < arguments.length; index++) {
         var source = arguments[index];
@@ -16,4 +17,4 @@ Object.prototype.assign = function(target){
     }
     return output;
 };
-module.exports = Object.assign
+module.exports = assign

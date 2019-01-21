@@ -79,7 +79,7 @@ const color = randomColor()
 ### Object  
 #### &emsp;&emsp;[deepClone][deepClone]&emsp;&emsp;深拷贝，支持常见类型
 #### &emsp;&emsp;[isEmptyObject][isEmptyObject]&emsp;&emsp;判断Object是否为空
-#### &emsp;&emsp;[Object.assign][Object.assign]&emsp;&emsp;ES6 Object.assign兼容性处理
+#### &emsp;&emsp;[assign][assign]&emsp;&emsp;兼容低版本浏览器的Object.assign
 
 ### Random  
 #### &emsp;&emsp;[randomColor][randomColor] &emsp;&emsp;随机生成颜色
@@ -139,7 +139,7 @@ const color = randomColor()
 
 [deepClone]:https://github.com/ztjy-fe/szyutils/blob/master/src/object/deepClone.js
 [isEmptyObject]:https://github.com/ztjy-fe/szyutils/blob/master/src/object/isEmptyObject.js
-[Object.assign]:https://github.com/ztjy-fe/szyutils/blob/master/src/object/objectAssign.js
+[assign]:https://github.com/ztjy-fe/szyutils/blob/master/src/object/assign.js
 
 [randomColor]:https://github.com/ztjy-fe/szyutils/blob/master/src/random/randomColor.js
 [randomNum]:https://github.com/ztjy-fe/szyutils/blob/master/src/random/randomNum.js
