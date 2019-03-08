@@ -9,7 +9,7 @@ function setCookie(name, value, params) {
     var stringifiedAttributes = '';
 
     // 过期时间
-    if (params.expires === 'number') {
+    if (typeof params.expires === 'number') {
     	var date = new Date();
     	date.setDate(date.getDate() + params.expires);
     	stringifiedAttributes +=';expires=' + date;
